@@ -1,10 +1,10 @@
-<h1>Webpages</h1>
+#Webpages
 
-<h2>Content</h2>
+##Content
 - contact.html
 
 
-<h3>content.html</h3>
+###content.html
 - Built using HTML & CSS
 - With the help of Javascript, an alert window is shown upon clicking the button, Submit
 - To see the website, visit: https://dash.generalassemb.ly/kartiki/build-your-own-personal-website 
