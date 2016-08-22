@@ -1,11 +1,8 @@
 Webpages
 
-------
 Content
 > Contact page
 
-
-------
 
 Contact page
 > Built using HTML & CSS
