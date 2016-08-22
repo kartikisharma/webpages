@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <title>Kartiki Sharma</title>
+  <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+  <style>
+    body {
+      text-align: center;
+      background: url("http://imgur.com/pdMyMXg.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: 'Slabo' serif;
+    }
+    h1{
+      color: purple;
+      font-family: 'Tangerine' helvetica;
+      font-size: 50;
+      text-shadow: 4px 4px 4px #aaa;
+    }
+    p {
+      font-size: 22px;
+    }
+    img {
+      border-radius: 50px;
+    }
+    input {
+      border: 0;
+      color: purple;
+      padding: 10px;
+      font-size: 18px;
+    }
+    button {
+      background-color: purple;
+      border: none;
+      color: white;
+      padding: 12px 15px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      }
+  </style>
+</head>
+<body>
+  <img src="http://i.imgur.com/PT3Nh7B.jpg" alt="flower icon" height=100px width=100px>
+  <h1>Kartiki Sharma</h1>
+  <p>Hi! I'm a CS student aspiring to be a Web developer.</p>
+  <p>Interested in talking? Contact me below:</p>
+  <input type="email" placeholder="Your email">
+  <button>Submit</button>
+  <script>
+  $("button").on("click",function(){ alert("submitted!") });
+  </script>
+</body>
