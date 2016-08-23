@@ -10,7 +10,7 @@
 - With the help of Javascript, an alert window is shown upon clicking the button, Submit
 - To see the website, visit: https://dash.generalassemb.ly/kartiki/build-your-own-personal-website 
 
-Notes to Self:
+Note to Self:
 - background property accepts values written as "url('....png')"
 - download images to imgur to use the above method
 - new implementations: text-shadow, border-radius, google fonts
@@ -21,7 +21,7 @@ Notes to Self:
 * Please note that the ONLY working link is Contact
 - To see the website, visit: https://dash.generalassemb.ly/projects/build-your-own-blog-theme
 
-Notes to Self:
+Note to Self:
 - margin: 0 auto <--- vital tool in aligning the object to center without centering the text
 
 
