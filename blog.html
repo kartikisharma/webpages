@@ -1,0 +1,120 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <title>Kartiki's Blog</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" 
+  href="https://fonts.googleapis.com/css?family=Yatra+One">
+  <style>
+  header {
+    text-align: center;
+    /* Background below belongs to nickpoststhingssometimesmaybe,
+    original link: http://imgur.com/gallery/e596tMC */
+    background: url("http://i.imgur.com/56gS7z3.png");
+    background-size: cover;
+  }
+  #blog-name {
+    color: orange;
+    font-family: 'Yatra One' serif;
+    font-size: 22px;
+    margin: 20px;
+    padding: 0px 5px  0px 0px;
+  }
+  #bt {
+    color: orange;
+    padding-left: 285px;
+  }
+  a {
+    color: white;
+  }
+  img {
+    margin: 40px 0px 0px 0px;
+    border-radius: 20px;
+  }
+  ul {
+    background: #cd5c5c;
+    padding: 10px;
+  }
+  li {
+    display: inline;
+    padding: 10px;
+  }
+  h2 {
+    font-family: 'Yatra One' serif;
+    color: orange;
+  }
+  body {
+    background: #FFFFE0;
+  }
+  footer {
+    background: #cd5c5c;
+    padding:10px;
+    color: white;
+  }
+  article {
+      margin: 0 auto;
+      max-width: 500px;
+      padding: 15px;
+  }
+  .article-photo {
+    border-radius: 20px solid orange;
+    margin: 7px;
+  }
+  @media (max-width: 500px) {
+    .article-photo {
+      height: 210px;
+      width: 270px;
+    }
+    li {
+      display: block;
+      padding:5px;
+    }
+    #bt {
+      padding-left: 110px;
+      padding-bottom: 20px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://i.imgur.com/DEWowbZ.jpg" height=100px length=100px>
+
+    <ul id ="top">
+      <li id="blog-name"><b>The Road to There</b></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="https://dash.generalassemb.ly/kartiki/build-your-own-personal-website">Contact</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Blog Title</h2>
+    <!-- Artwork belongs to me -->
+    <img class="article-photo" src="http://i.imgur.com/iMuqVnQ.jpg" height=270px>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Blog Title</h2>
+    <!-- Artwork belongs to me -->
+    <img class="article-photo" src="http://i.imgur.com/wOAMoyk.jpg" height= 270px>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Blog Title</h2>
+    <!-- Artwork belongs to me -->
+    <img class="article-photo" src="http://i.imgur.com/6mspN70.jpg" height=275px width=470>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <button>Like</button>
+  </article>
+  <a id="bt" href="#top">Back to Top</a>
+  <footer>
+  <small>&copy; Kartiki Sharma 2016</small>
+  </footer>
+  
+  <script>
+  $("button").on("click",function(){ alert("Liked!") });
+  </script>
+</body>
+</html>
