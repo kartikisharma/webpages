@@ -17,7 +17,7 @@ Note to Self:
 
 ###blog.html
 - Built using HTML & CSS and similar use of Javascript as before for responsiveness
-- Dealt with modifying the CSS code for the use of the website on a smartphone
+- <i>Dealt with modifying the CSS code for the use of the website on a smartphone</i>
 * Please note that the ONLY working link is Contact
 - To see the website, visit: https://dash.generalassemb.ly/projects/build-your-own-blog-theme
 
