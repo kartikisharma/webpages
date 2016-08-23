@@ -54,9 +54,10 @@
     text-align: center;
   }
   article {
-      margin: 0 auto;
-      max-width: 500px;
-      padding: 15px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 15px;
+    line-height: 25px;
   }
   .article-photo {
     border-radius: 20px solid orange;
@@ -67,17 +68,27 @@
     color: white;
     background: #cd5c5c;
   }
-  @media (max-width: 550px) {
+  .date {
+    float: right;
+  }
+  
+  @media (max-width: 700px) {
     .article-photo {
-      height: 300px;
-      width: 450px;
+      height: 200px;
+      width: 275px;
     }
     li {
       display: block;
-      padding:5px;
+      padding: 5px;
     }
     #next-page {
-    padding-left: 200px;
+    padding-left: 100px;
+    }
+    .h2 {
+      font-size: 20px;
+    }
+    .date {
+      display: none;
     }
   }
   </style>
@@ -87,31 +98,32 @@
     <img src="http://i.imgur.com/DEWowbZ.jpg" height=100px length=100px>
 
     <ul id ="top">
-      <li id="blog-name"><b>The Road to There</b></li>
+      <li id="blog-name"><b>Art Portfolio</b></li>
       <li><a href="#">About Me</a></li>
       <li><a href="#">Instagram</a></li>
       <li><a href="mailto:sharmazia@ymail.com?subject=Reaching%20Out">Contact</a></li>
     </ul>
   </header>
   <article>
-    <h2>Blog Title</h2>
+    <h2>Seahorse <span class="date"> Jul 2016</span></h2>
     <!-- Artwork belongs to me -->
-    <img class="article-photo" src="http://i.imgur.com/iMuqVnQ.jpg" height=270px>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <img class="article-photo" src="http://i.imgur.com/iMuqVnQ.jpg" height=270px width=500px>
+    <p>
+    Hand drawn picture of a Seahorse, and painted with metallic paints.</p>
     <button>Like</button>
   </article>
   <article>
-    <h2>Blog Title</h2>
+    <h2>EXO Paint Mural <span class="date">Jan 2015</span></h2>
     <!-- Artwork belongs to me -->
-    <img class="article-photo" src="http://i.imgur.com/wOAMoyk.jpg" height= 270px>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <img class="article-photo" src="http://i.imgur.com/wOAMoyk.jpg" height= 270px width=500px>
+    <p>Hand drew the design with the help of projectors and later painted it using acrylic paints over the span of 2 weeks. </p>
     <button>Like</button>
   </article>
   <article>
-    <h2>Blog Title</h2>
+    <h2>1st Portraiture: Sungjong <span class="date">Jun 2014</span></h2>
     <!-- Artwork belongs to me -->
-    <img class="article-photo" src="http://i.imgur.com/6mspN70.jpg" height=275px width=470>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <img class="article-photo" src="http://i.imgur.com/6mspN70.jpg" height=275px width=500>
+    <p>An ambitious challenge I took and to my surprise, it came out really well! First of many portraitures to be drawn. </p>
     <button>Like</button>
   </article>
   <a id="next-page" href="#">Next Page >></a>
@@ -124,3 +136,4 @@
   </script>
 </body>
 </html>
+
