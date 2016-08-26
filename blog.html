@@ -18,11 +18,13 @@
     font-family: 'Yatra One' serif;
     font-size: 22px;
     margin: 20px;
-    padding: 0px 5px  0px 0px;
+    padding: 0px 5px 0px 0px;
   }
   #next-page {
     color:orange;
-    padding-left: 650px;
+  }
+  div {
+    text-align: center;
   }
   a {
     color: white;
@@ -37,7 +39,7 @@
   }
   li {
     display: inline;
-    padding: 10px;
+    padding: 20px;
   }
   h2 {
     font-family: 'Yatra One' serif;
@@ -72,23 +74,55 @@
     float: right;
   }
   
-  @media (max-width: 700px) {
+  /* Optimised the website for smaller window on desktop */
+  @media (max-width: 500px) {
     .article-photo {
-      height: 200px;
+      height: 150px;
       width: 275px;
+      margin: 0 auto;
     }
     li {
       display: block;
-      padding: 5px;
+      padding: 10px;
     }
-    #next-page {
-    padding-left: 100px;
+    h2 {
+      
+      font-size: 17px;
     }
-    .h2 {
-      font-size: 20px;
+    div {
+      font-size: 15px;
+    }
+    p {
+      font-size: 13px;
+    }
+    button {
+      font-size: 13px;
+      padding: 7px;
+    }
+  }
+  
+  /* Optimised the website for Samsung S6 & S7 */ 
+  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-min-device-pixel-ratio: 4) and  (-webkit-device-pixel-ratio: 4) and  (orientation: portrait) {
+    .article-photo {
+      height: 320px;
+      width: 500px;
+    }
+    li {
+      display: block;
+      padding: 10px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 15px;
+    }
+    div {
+      font-size: 13px;
     }
     .date {
       display: none;
+    }
+    p {
+      font-size: 13px;
     }
   }
   </style>
@@ -120,13 +154,15 @@
     <button>Like</button>
   </article>
   <article>
-    <h2>1st Portraiture: Sungjong <span class="date">Jun 2014</span></h2>
+    <h2>1st Portraiture <span class="date">Jun 2014</span></h2>
     <!-- Artwork belongs to me -->
     <img class="article-photo" src="http://i.imgur.com/6mspN70.jpg" height=275px width=500>
     <p>An ambitious challenge I took and to my surprise, it came out really well! First of many portraitures to be drawn. </p>
     <button>Like</button>
   </article>
+  <div>
   <a id="next-page" href="#">Next Page >></a>
+  </div>
   <footer>
   <small>&copy; Kartiki Sharma 2016</small>
   </footer>
@@ -136,4 +172,5 @@
   </script>
 </body>
 </html>
+
 
