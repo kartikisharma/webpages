@@ -17,10 +17,11 @@ Note to Self:
 
 ###blog.html
 - Inspired by art blogs, I built this using HTML, CSS and used Javascript as before for responsiveness
-- <i>Dealt with modifying the CSS code for the use of the website on a smaller screen</i>
+- <i>Dealt with modifying the website for use on a smaller window for desktop</i>
+- <i>Dealt with modifying the website for use on Samsung Galaxy S6 & S7 </i>
 * Please note that the ONLY working link is Contact
 - To see the website, visit: https://dash.generalassemb.ly/kartiki/build-your-own-blog-theme
 
 Note to Self:
 - margin: 0 auto <--- vital tool in aligning the object to center without centering the text
-- unlike the desktop, responsiveness was unefficient on Samsung S6
+- currently, responsiveness is efficient on both desktop and Samsung Galaxy S6
